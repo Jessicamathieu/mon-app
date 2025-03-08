@@ -1,0 +1,21 @@
+{
+    "clients": [
+      { "id": "c1", "nom": "Dupont", "contact": "dupont@mail.com", "telephone": "0123456789" }
+    ],
+    "services": [
+      { "id": "s1", "nom": "Consultation", "couleur": "#FF5733" }
+    ],
+    "produits": [
+      { "id": "p1", "nom": "Produit A", "prix": 29.99 }
+    ],
+    "calendrier": [
+      { "id": "e1", "clientId": "c1", "serviceId": "s1", "debut": "2025-03-15T09:00:00", "fin": "2025-03-15T09:15:00", "statut": "confirmé" }
+    ],
+    "heures": [
+      { "id": "h1", "clientId": "c1", "date": "2025-03-15", "duree": 1.5 }
+    ],
+    "depenses": [
+      { "id": "d1", "description": "Fournitures", "montant": 45.00, "date": "2025-03-15" }
+    ]
+  }
+  
